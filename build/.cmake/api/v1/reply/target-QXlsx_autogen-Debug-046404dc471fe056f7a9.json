@@ -1,0 +1,100 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"QXlsx-library/QXlsx-master/QXlsx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "QXlsx_autogen_timestamp_deps::@5214569f15529d6a2447"
+		}
+	],
+	"id" : "QXlsx_autogen::@5214569f15529d6a2447",
+	"isGeneratorProvided" : true,
+	"name" : "QXlsx_autogen",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "QXlsx_autogen_timestamp_deps::@5214569f15529d6a2447"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "QXlsx-library/QXlsx-master/QXlsx",
+		"source" : "QXlsx-library/QXlsx-master/QXlsx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"backtraces" : 
+			[
+				0
+			],
+			"isGenerated" : true,
+			"path" : "build/QXlsx-library/QXlsx-master/QXlsx/CMakeFiles/QXlsx_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"backtraces" : 
+			[
+				0
+			],
+			"isGenerated" : true,
+			"path" : "build/QXlsx-library/QXlsx-master/QXlsx/CMakeFiles/QXlsx_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"backtraces" : 
+			[
+				0
+			],
+			"isGenerated" : true,
+			"path" : "build/QXlsx-library/QXlsx-master/QXlsx/QXlsx_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
