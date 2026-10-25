@@ -9,9 +9,14 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(ZLIB REQUIRED)
+
+set(QUAZIP_ENABLE_TESTS OFF CACHE BOOL "" FORCE)
+set(QUAZIP_QT6 ON CACHE BOOL "" FORCE)
 
 # Подключаем QXlsx штатным способом по точному вложенному пути
 add_subdirectory(QXlsx-library/QXlsx-master/QXlsx)
+add_subdirectory(quazip-master)
 
 # Регистрируем только ВАШИ исходные файлы проекта (без файлов библиотеки)
 add_executable(untitled
@@ -21,8 +26,9 @@ add_executable(untitled
     mainwindow.ui
 )
 
-# Связываем ваш проект с Qt6 и библиотекой QXlsx (она сама передаст все пути к private)
+#З Связываем ваш проект с Qt6 и библиотекой QXlsx (она сама передаст все пути к private)
 target_link_libraries(untitled PRIVATE
     Qt6::Widgets
     QXlsx::QXlsx
+    QuaZip::QuaZip
 )

@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "xlsxdocument.h"
+#include <quazip/JlCompress.h> // Высокоуровневый класс для быстрой работы с архивами
+
 
 
 MainWindow::MainWindow(QWidget *parent)
